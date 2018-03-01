@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+
+<html lang="pl">
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1"> 
+        <title>D.W Promyk</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+        <meta name="description" content="Zapraszamy nad morze do Domu Wczasowego Promyk! Atrakcyjne ceny, doskonala lokalizacja." />
+        <meta name="keywords" content="pensjonat, noclegi, rewal, pustkowo, pobierowo" />
+       	<link rel="stylesheet" type="text/css" href="css/main.css" />
+		<link rel="stylesheet" href="css/fontello.css">
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700&amp;subset=latin-ext" rel="stylesheet">
+        
+    </head>
+	
+    <body>
+	<style>
+		body {
+			background-image: url("img/bg1.png");
+		}
+	</style>
+        <div class="container">
+            <div class="clr"></div>
+                       
+		   <header>
+			
+                <h1> <span><a href="http://www.pustkowo.pl" target="_blank">www. pustkowo.pl </a></span></h1>
+				</br>
+                <h2>Serdecznie zaprasza na wakacyjną przygodę</h2>
+				</br>
+				<nav id="topnav">
+					<ul class="menu">
+					<li><a href="index.html">Strona Główna</a></li>
+					<li><a href="oferta.html">Oferta</a></li>
+					<li><a href="galeria.html">Galeria</a></li>
+					<li><a href="kontakt.html">Kontakt</a></li>
+					</ul>
+				</nav>
+	         </header>
+        </div>
+		<main>
+			<div class="slideshow-container">
+
+				<div class="mySlides fade">
+				<div class="numbertext">1 / 3</div>
+				  <img src="img/1.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				<div class="numbertext">2 / 3</div>
+					<img src="img/2.jpg" style="width:100%">
+				</div>
+
+				<div class="mySlides fade">
+				<div class="numbertext">3 / 3</div>
+					<img src="img/15.jpg" style="width:100%">
+				</div>
+
+				</div>
+				<br>
+
+				<div style="text-align:center">
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+					<span class="dot"></span> 
+			</div>		
+			<section>
+				
+				<div class="contact">
+		
+					<section>	
+						<h3>Zapraszamy na wypoczynek do Pustkowa</h3>
+						</br>
+						<p>	Niewielka i spokojna miejscowość, czysta i szeroka plaża, ciekawa okolica i ścieżki rowerowe zapewnią wyjątkowy odpoczynek nad morzem.</br>
+							<b>D.W.Promyk</b> położony jest około 400m od plaży (7 min spacerkiem). Oferujemy pokoje 2, 3 i 4 osobowe.</br>
+							Obiekt posiada parking, mini plac zabaw oraz miejsce grilowe z zadaszoną altaną.</br>
+							<b>Zapraszamy!</b>
+					</section>								
+										
+					<a href="oferta.html" class="offert">Zapoznaj sie z ofertą</a>
+				
+				</div>
+				
+			</section>		
+		</main>
+		
+		<footer>
+				
+		<div class="info">
+		<a class="in_point1" href="../../web.html">Powrót do projektów</a>
+		© Copyright 2017 by Ls.Code
+		</div>
+	
+	</footer>
+	
+<script>
+var slideIndex = 0;
+showSlides();
+
+function showSlides() {
+    var i;
+    var slides = document.getElementsByClassName("mySlides");
+    var dots = document.getElementsByClassName("dot");
+    for (i = 0; i < slides.length; i++) {
+       slides[i].style.display = "none";  
+    }
+    slideIndex++;
+    if (slideIndex> slides.length) {slideIndex = 1}    
+    for (i = 0; i < dots.length; i++) {
+        dots[i].className = dots[i].className.replace(" active", "");
+    }
+    slides[slideIndex-1].style.display = "block";  
+    dots[slideIndex-1].className += " active";
+    setTimeout(showSlides, 5000); 
+}
+</script>
+
+    </body>
+</html>

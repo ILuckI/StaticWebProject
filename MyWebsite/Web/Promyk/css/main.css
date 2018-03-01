@@ -1,0 +1,287 @@
+/* CSS reset */
+body,div,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td { 
+	margin:0;
+	padding:0;
+}
+html,body {
+	margin:0;
+	padding:0;
+	
+}
+table {
+	border-collapse:collapse;
+	border-spacing:0;
+}
+fieldset,img { 
+	border:0;
+}
+input{
+	border:1px solid #b0b0b0;
+	padding:3px 5px 4px;
+	color:#979797;
+	width:190px;
+}
+address,caption,cite,code,dfn,th,var {
+	font-style:normal;
+	font-weight:normal;
+}
+ol,ul {
+	list-style:none;
+}
+caption,th {
+	text-align:left;
+}
+h3 {
+	font-size:150%;
+	font-weight:normal;
+	text-shadow: 2px 2px 5px #1F5E82;
+}
+h1,h2 {
+	font-size:100%;
+	font-weight:normal;
+	text-shadow: 2px 2px 5px red;
+}
+h4,h5,h6 {
+	font-size:30px;
+	font-weight:normal;
+	color:#ffffff;
+	text-shadow: 0px 2px 3px black;
+}
+q:before,q:after {
+	content:'';
+}
+abbr,acronym { border:0;
+}
+/* Main Style */
+body{
+	font-family: Constantia, Palatino, "Palatino Linotype", "Palatino LT STD", Georgia, serif;
+	/*background: #CADAFC;*/
+	background-image: url ("img/bg1.png");
+	color: #000000;
+	font-weight: 400;
+	font-size: 15px;
+	overflow-y: scroll;
+	overflow-x: hidden;
+	
+}
+.ie7 body{
+	overflow:hidden;
+	
+}
+a{
+	color: #333;
+	text-decoration: none;
+}
+
+
+.container{
+	position: relative;
+	text-align: center;
+
+}
+.clr{
+	clear: both;
+}
+.container > header{
+	padding: 30px 30px 10px 20px;
+	/*background-color: #CADAFC;*/
+	background-image: url ("img/bg1.png");
+	margin: 0px 20px 10px 20px;
+	position: relative;
+	display: block;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.2);
+    text-align: center;
+}
+.container > header h1{
+	font-family: 'BebasNeueRegular', 'Arial Narrow', Arial, sans-serif;
+	font-size: 450%;
+	line-height: 35px;
+	position: relative;
+	font-weight: 400;
+	color: #606060;
+	text-shadow: 5px 8px 10px #1F5E82;
+    padding: 0px 0px 5px 0px;
+}
+.container > header h1 span{
+
+}
+.container > header h2, p.info{
+	font-size: 140%;
+	font-style: italic;
+	color: #000000;
+	text-shadow: 5px 8px 10px #1F5E82;
+}
+
+#topnav
+{
+	/*background-color: #CADAFC;*/
+	background-image: url ("img/bg1.png");
+	text-align: center;
+	color: #000000;
+}
+
+.menu
+{
+	list-style-type: none;
+	margin: 0;
+	padding: 10px;
+	font-size: 18px;
+	min-height: 38px;
+	line-height: 200%;
+	text-shadow: 2px 2px 2px #FFFFFF;
+}
+
+.menu > li
+{
+	display: inline-block;
+	padding-left: 20px;
+	padding-right: 20px;
+	border-right: 1px dashed #0a2b42;
+}
+
+.menu > li:first-child
+{
+	border-left: 1px dashed #0a2b42;
+}
+
+.menu a
+{
+	color: #000000;
+	text-decoration: none;
+}
+
+.menu a:hover
+{
+	color: #40C0F0;
+	text-shadow: 2px 2px 2px ##FFA010;
+	
+}
+
+* {box-sizing:border-box}
+body {font-family: Verdana,sans-serif;}
+.mySlides {display:none}
+
+/* Slideshow container */
+.slideshow-container {
+  max-width: 1000px;
+  position: relative;
+  margin: auto;
+}
+
+/* Caption text */
+.text {
+  color: #f2f2f2;
+  font-size: 15px;
+  padding: 8px 12px;
+  position: absolute;
+  bottom: 8px;
+  width: 100%;
+  text-align: center;
+}
+
+/* Number text (1/3 etc) */
+.numbertext {
+  color: #f2f2f2;
+  font-size: 12px;
+  padding: 8px 12px;
+  position: absolute;
+  top: 0;
+}
+
+/* The dots/bullets/indicators */
+.dot {
+  height: 13px;
+  width: 13px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+/* On smaller screens, decrease text size */
+@media only screen and (max-width: 300px) {
+  .text {font-size: 11px}
+}
+
+
+.offert
+{
+	background-color: #1F5E82;
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 20%;
+}
+
+.offert:hover
+{
+	background-color: #196499;
+}
+
+.info
+{
+	margin-left: auto;
+	margin-right: auto;
+	text-align: center;
+	padding: 20px;
+	background-color: #1F5E82;
+}
+
+.contact
+{
+	margin-left: auto;
+	margin-right: auto;
+	width: 95%px;
+	text-align: center;
+	padding-bottom: 70px;
+	margin-bottom: 50px;
+}
+
+.contact p
+{
+	margin-bottom: 50px;
+}
+
+.atrakcje
+{
+	padding: 15px;
+	color: #efefef;
+	font-size: 19px;
+	text-decoration: none;
+	border-radius: 5px;
+	min-width: 20%;
+	float: left;
+}
+
+.table
+{
+	position: center;
+	margin-left: auto;
+	margin-right: auto;
+	width: 60%;
+}
