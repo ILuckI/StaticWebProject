@@ -7,12 +7,6 @@ body
 	font-family: Verdana,sans-serif;
 }
 
-a
-{
-	text-decoration:none;
-	color: grey;
-}
-
 header
 {
 	
@@ -25,6 +19,33 @@ footer
 	color: #ddd;
 	margin-top: 5%;
 	text-shadow: 2px 2px 5px grey;
+}
+p{
+	margin-left: 5%;
+	margin-right: 30%;
+}
+
+* {
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box
+}
+
+li {
+	list-style: none
+}
+
+a, a:hover {
+	text-decoration: none
+}
+
+h4 {
+	font-size: 20px;
+	font-weight: 500
+}
+
+a, p {
+	color: gainsboro;
 }
 
 #logo
@@ -86,4 +107,120 @@ footer
 	margin-top: 5%;
 	margin-left: 5%;
 	text-shadow: 2px 2px 5px grey;
+}
+
+#center {
+
+
+}
+.tab_style_1 ul.tabs_menu li {
+	float: left;
+	border-top: 1px solid #0482f8;
+	border-bottom: 1px solid #0482f8;
+	border-left: 1px solid #0482f8;
+	transition: all .4s linear
+}
+
+.tab_style_1 ul.tabs_menu li:first-child {
+	border-top-left-radius: 5px;
+	border-bottom-left-radius: 5px
+}
+
+.tab_style_1 ul.tabs_menu li:last-child {
+	border-top-right-radius: 5px;
+	border-bottom-right-radius: 5px;
+	border-right: 1px solid #0482f8
+}
+
+.tab_style_1 ul.tabs_menu li.active {
+	background: #0482f8
+}
+
+.tab_style_1 ul.tabs_menu, section, ul.tabs_menu {
+	overflow: hidden
+}
+
+.col-6, .container {
+	padding-right: 55px;
+	padding-left: 15px
+}
+
+.container {
+	max-width: 1170px;
+	margin-right: auto;
+	margin-left: auto
+}
+
+.row {
+	margin-right: -15px;
+	margin-left: -15px
+}
+
+.col-6 {
+	margin: auto;
+	width: 50%;
+	padding: 10px;
+}
+
+.tab_style_1 ul.tabs_menu li a {
+	line-height: 45px;
+	display: block;
+	padding-left: 20px;
+	padding-right: 20px;
+	transition: all .4s linear
+}
+
+.tab_style_1 ul.tabs_menu li.active a {
+	color: #fff
+}
+
+.tab_style_1 .tab {
+	margin-top: 35px
+}
+
+ul.tabs_menu {
+	display: block;
+	position: relative
+}
+
+@media only screen and (min-width: 481px) and (max-width: 950px) {
+	.col-6 {
+		width: 100%
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 28px
+	}
+
+	.single_tab {
+		margin-bottom: 30px;
+		overflow: hidden
+	}
+}
+
+@media only screen and (min-width: 320px) and (max-width: 480px) {
+	.tabs_menu li {
+		float: none;
+		margin-bottom: 10px
+	}
+
+	h3 {
+		font-size: 18px;
+		line-height: 28px
+	}
+
+	.tab_style_1 ul.tabs_menu li {
+		border: 1px solid #0482f8;
+		border-radius: 5px
+	}
+
+	.col-6 {
+		width: 100%;
+	}
+
+	.single_tab {
+		margin-bottom: 30px;
+		overflow: hidden
+	}
 }

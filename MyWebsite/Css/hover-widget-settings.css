@@ -1,0 +1,277 @@
+.hover-widget-wrapper {
+    position: relative;
+    display: block;
+    width: 70%;
+    margin: 50px auto;
+    padding: 30px;
+    height: auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*	--------------------------------------------------
+	::  Dividers
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+    :: Dividers Configurations
+    -------------------------------------------------- */
+
+.dividers {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    height: auto;
+    margin: 0 auto;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.dividers .divider {
+    position: relative;
+    display: block;
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+/*	--------------------------------------------------
+    :: Divider Fourteen
+    -------------------------------------------------- */
+
+.divider-fourteen {
+    border-top: 2px dashed #adbbc5;
+}
+
+.divider-fourteen .description {
+    position: absolute;
+    display: inline-block;
+    background-color: #dee5eb;
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-style: normal;
+    font-weight: 900;
+    font-size: 13px;
+    top: 50%;
+    left: 0;
+    padding: 0 10px 0 0;
+    color: #92a3b0;
+    -webkit-transform: translateY(-60%);
+    -moz-transform: translateY(-60%);
+    transform: translateY(-60%);
+}
+
+/*	--------------------------------------------------
+	:: Hover Effects Widget
+	-------------------------------------------------- */
+
+/*	--------------------------------------------------
+    :: Hover Effects Widget Captions
+    -------------------------------------------------- */
+
+.hover-effects-widget {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder {
+    position: relative;
+    display: block;
+    margin: 0;
+    padding: 0;
+    height: 0;
+    width: 100%;
+    overflow: hidden;
+    padding-bottom: 92%;
+    -webkit-perspective: 1000px;
+    perspective: 1000px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateZ(0);
+    transform: translateZ(0);
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder img {
+    position: absolute;
+    margin: 0;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: 2;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-backface-visibility: hidden;
+    backface-visibility: hidden;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-caption {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    right: 20px;
+    bottom: 20px;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    z-index: 3;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder:before,
+.hover-effects-widget .hover-effects-widget-media-holder:after,
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-caption:before,
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-caption:after {
+    position: absolute;
+    content: "";
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transition: all 0.8s ease-in-out;
+    -moz-transition: all 0.8s ease-in-out;
+    transition: all 0.8s ease-in-out;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder:hover:before,
+.hover-effects-widget .hover-effects-widget-media-holder:hover:after,
+.hover-effects-widget .hover-effects-widget-media-holder:hover .hover-effects-widget-caption:before,
+.hover-effects-widget .hover-effects-widget-media-holder:hover .hover-effects-widget-caption:after {
+    opacity: 1;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder:before,
+.hover-effects-widget .hover-effects-widget-media-holder:after {
+    z-index: 3;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-caption:before,
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-caption:after {
+    z-index: -1;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description {
+    position: absolute;
+    display: block;
+    padding: 0;
+    top: 50%;
+    left: 60px;
+    right: 60px;
+    text-align: center;
+    z-index: 4;
+    opacity: 0;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    transform: translateY(-50%);
+    -webkit-transition: all 0.6s ease-in-out;
+    -moz-transition: all 0.6s ease-in-out;
+    transition: all 0.6s ease-in-out;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder:hover .hover-effects-widget-description {
+    opacity: 1;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description h4 {
+    text-transform: uppercase;
+    font-family: "Roboto";
+    font-size: 17px;
+    font-weight: 900;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0 0 7px 0;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description span {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 16px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 24px;
+    margin: 0 0 7px 0;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description p {
+    text-transform: uppercase;
+    font-family: "Raleway";
+    font-size: 11px;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 20px;
+    margin: 0 0 9px 0;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description a {
+    position: relative;
+    display: inline-block;
+    padding: 0;
+    margin: 0 5px;
+    text-decoration: none;
+    cursor: pointer;
+    outline: none;
+}
+
+.hover-effects-widget .hover-effects-widget-media-holder .hover-effects-widget-description i {
+    font-size: 18px;
+    font-weight: normal;
+    font-style: normal;
+    vertical-align: baseline;
+}
+
+@font-face {
+    font-family: 'icomoon-ultimate';
+    src: url('../../../font/icomoon-ultimate.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+[class*="icomoon-"]:before {
+    font-family: 'icomoon-ultimate';
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.icomoon-earth:before {
+    content: "\ec96";
+}
+
+.icomoon-eye3:before {
+    content: "\ecb4";
+}
