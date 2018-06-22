@@ -1,0 +1,74 @@
+body, div, dl, dt, dd, ol, li, h1, h2, h3, h4, h5, h6, pre, form, fieldset, input, textarea, p, blockquote, th, td {
+    margin: 0;
+    padding: 0;
+
+
+}
+
+body {
+    background: #000000;
+
+}
+
+#primaryStage {
+    width: 95%;
+    height: 95%;
+
+}
+
+#mainScene {
+
+    width: 80%;
+    height: 80%;
+    font-size: 400%;
+    color: silver;
+    padding-top: 16%;
+    padding-right: 10%;
+    padding-left: 10%;
+    text-align: center;
+
+}
+
+h1 {
+    font-size: 150%;
+    color: lightblue;
+    text-align: center;
+    text-shadow: 50px 0px 55px grey;
+}
+
+p {
+	margin-top: 2%;
+    margin-left: 40%;
+    text-align: justify;
+    font-size: 20%;
+
+}
+p1 {
+	color: red;
+	text-decoration: none;
+}
+.send{
+	color: lightblue;
+	text-decoration: none;
+}
+.send:hover {
+	color: #00E0E0;
+
+}
+
+p2 {
+	color:gray;
+	font-size: 60%;
+}
+a{
+	text-decoration: none;
+	color: silver;
+}
+a:hover{
+	text-decoration: none;
+		color: silver;
+}
+a:visited{
+	text-decoration: none;
+		color: silver;
+}
