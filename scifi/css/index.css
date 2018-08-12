@@ -1,0 +1,180 @@
+body,div,dl,dt,dd,ol,li,h1,h2,h3,h4,h5,h6,pre,form,fieldset,input,textarea,p,blockquote,th,td {margin:0;padding:0;}
+table {border-collapse:collapse; border-spacing:0;}
+fieldset,img {border:0;}
+input{border:1px solid #b0b0b0; padding:3px 5px 4px; color:#979797; width:190px;}
+ol,ul {list-style:none;}
+link{text-decoration:none;}
+
+ 
+body
+{
+	background-color: black;
+	font-family: 'Bellefair', serif;
+
+}
+h2
+{
+	color: #0099FF;
+	text-shadow: 2px 2px 20px #99FFFF;
+}
+q
+{
+	color: #0099FF;
+	text-shadow: 2px 2px 20px #99FFFF;
+}
+ul > li > ul {
+   display: none;
+}
+ul > li:hover > ul {
+   display: block;
+}
+
+#space
+{
+
+	margin-bottom: auto;
+	margin-left: auto;
+	text-align:center;
+	
+}
+
+#base
+{
+	width: 90%;
+	height: 80%;
+	border: 2px solid black;
+	position: absolute;
+	padding: 5%;
+	
+}
+
+#img_orbit
+{
+	width: 100%;
+	height: 100%;
+}
+
+.in_test_1a	
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 28%;
+	left: 70%;
+}
+
+.in_test1	
+{
+	color: #9F9F9F;
+	text-shadow: 2px 2px 5px black;
+	font-size: 135%;
+	text-decoration: none;
+	position: absolute; 
+	top: 70%;
+	left: 70%;
+	
+}
+
+.in_test1:before
+{
+	color: #ffffff;
+	
+}
+.in_test1:after
+{
+	color: #000000;
+	
+}
+.in_test1:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px #006080;
+	font-size: 185%;
+}
+
+
+.in_test2	
+{
+	color: #9F9F9F;
+	text-shadow: 2px 2px 5px black;
+	font-size: 150%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 65%;
+	left: 43%;
+	
+}
+
+.in_test2:before
+{
+	color: #000000;
+	
+}
+.in_test2:after
+{
+	color: #000000;
+	
+}
+.in_test2:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px yellow;
+	font-size: 200%;
+	
+}
+
+.in_test3	
+{
+	color: #9F9F9F;
+	text-shadow: 2px 2px 5px black;
+	font-size: 200%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 52%;
+	left: 17%;
+	
+}
+.in_test3:before
+{
+	color: #000000;
+	
+}
+.in_test3:after
+{
+	color: #000000;
+	
+}
+.in_test3:hover
+{
+	color: white;
+	text-shadow: 2px 2px 30px red;
+	font-size: 250%;
+}
+
+.in_point1
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 80%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 6%;
+	left: 5%;
+}
+
+.in_point2
+{
+	color: white;
+	text-shadow: 2px 2px 5px black;
+	font-size: 80%;
+	text-align: center;
+	text-decoration: none;
+	position: absolute; 
+	top: 6%;
+	left: 80%;
+}

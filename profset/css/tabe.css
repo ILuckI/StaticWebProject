@@ -1,0 +1,51 @@
+
+.tab_content.active.nodisplay {
+    position: relative;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    opacity: 1;
+}
+
+.tab {
+    position: relative;
+    width: 100%;
+    display: block;
+    overflow: hidden;
+}
+
+.tab_content {
+    transition: all .30s linear;
+    -webkit-transition: all .30s linear;
+    -moz-transition: all .30s linear;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+}
+
+.tab_content.nodisplay {
+    transform: scale(.98) perspective(500);
+    -webkit-transform: scale(.98) perspective(500);
+    -moz-transform: scale(.98) perspective(500);
+    opacity: 0;
+}
+
+.tabs_menu li {
+    float: left;
+    padding-right: 10px;
+    border-bottom: 1px solid #ddd;
+}
+
+.tabs_menu li.active {
+    border-bottom: 0;
+}
+
+.tabs_menu li a {
+    color: #777;
+    text-decoration: none;
+}
+
+.tabs_menu {
+    overflow: hidden;
+}
